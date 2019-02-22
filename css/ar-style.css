@@ -1,0 +1,113 @@
+
+body {
+    direction: rtl;
+}
+
+.header-nav .toggle-btn {
+    left: 15px;
+    right: auto;
+}
+
+.lang-item
+{
+    right: auto;
+    left: 15px;
+}
+
+.show-lang {
+    right: auto;
+    left: 0;
+}
+
+.lang-box {
+    right:auto;
+    left: 0px;
+}
+.lang-box::after {
+    right: auto;
+    left: 3px;
+}
+
+.logo-box {
+    text-align: right;
+}
+
+@media screen and (max-width:1199px)
+{
+    .navbar-menu {
+        right: 0;
+        left: auto;
+        transform: translateX(100%);
+    } 
+    .header-nav .over-lay {
+        transform: translateX(-100%);
+    }
+    .lang-item
+    {
+        left: 0px;
+    }
+    .show-menue {
+        transform: translateX(0%) !important;
+    }
+}
+
+
+.count-block {
+    border-left: 0;
+    border-right: 1px solid rgb(218, 218, 218);
+}
+
+.field label {
+    right: 20px;
+    left: auto;
+}
+
+.about-us .data ,
+.services .data ,
+.our-team .team-card ,
+.testimonial .item ,
+.footer ,
+.copyright
+{
+    text-align: right;
+}
+
+.link-draw {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.testimonial .item {
+    direction: rtl;
+}
+
+.testimonial .item .data {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.footer .social li {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.copyright .col-12:nth-child(2) p {
+    text-align: left;
+}
+
+
+@media screen and (max-width:767px)
+{
+    .count-block {
+        border: 0; 
+    }
+    .counts .col-6:first-of-type {
+        border-left: 1px solid rgb(218, 218, 218);
+        border-right: 0;
+        border-bottom: 1px solid rgb(218, 218, 218);
+    }
+    .counts .col-6:nth-child(3)  {
+        border-left: 1px solid rgb(218, 218, 218);
+        border-right: 0;
+    } 
+}
